@@ -285,7 +285,7 @@ export default function App() {
               <ContactForm />
 
               <p className="text-base text-gray-600 italic pt-6">
-                All sessions are confidential and conducted in a safe, non-judgmental space. Your privacy is deeply respected.
+                All sessions are conducted online. They are confidential and held in a safe, non-judgmental space. Your privacy is deeply respected.
               </p>
             </div>
           </div>
