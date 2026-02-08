@@ -60,6 +60,13 @@ export default function App() {
               </a>{' '}
               represents: attentive, non-judgmental, and responsive to suffering.
             </p>
+
+            <h1
+              className="mt-8 text-2xl md:text-3xl text-white/90 drop-shadow-lg"
+              style={{ fontFamily: 'Playfair Display, serif', fontWeight: 600 }}
+            >
+              Avalokiteshwara Psychological Counselling
+            </h1>
           </motion.div>
         </div>
       </section>
