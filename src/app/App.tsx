@@ -62,8 +62,13 @@ export default function App() {
             </p>
 
             <h1
-              className="mt-8 text-2xl md:text-3xl text-white/90 drop-shadow-lg"
-              style={{ fontFamily: 'Playfair Display, serif', fontWeight: 600 }}
+              className="mt-8 text-2xl md:text-3xl tracking-wide"
+              style={{
+                fontFamily: 'Playfair Display, serif',
+                fontWeight: 600,
+                color: '#C9A962',
+                textShadow: '0 2px 10px rgba(0,0,0,0.5), 0 0 30px rgba(201,169,98,0.3)'
+              }}
             >
               Avalokiteshwara Psychological Counselling
             </h1>
