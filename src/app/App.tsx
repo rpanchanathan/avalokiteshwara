@@ -61,17 +61,19 @@ export default function App() {
               represents: attentive, non-judgmental, and responsive to suffering.
             </p>
 
-            <h1
-              className="mt-8 text-2xl md:text-3xl tracking-wide"
-              style={{
-                fontFamily: 'Playfair Display, serif',
-                fontWeight: 600,
-                color: '#C9A962',
-                textShadow: '0 2px 10px rgba(0,0,0,0.5), 0 0 30px rgba(201,169,98,0.3)'
-              }}
-            >
-              Avalokiteshwara Psychological Counselling
-            </h1>
+            <div className="mt-8 px-6 py-3 rounded-lg bg-black/30 backdrop-blur-sm inline-block">
+              <h1
+                className="text-2xl md:text-3xl tracking-widest"
+                style={{
+                  fontFamily: 'Playfair Display, serif',
+                  fontWeight: 600,
+                  color: '#E8D5A3',
+                  textShadow: '0 2px 4px rgba(0,0,0,0.8), 0 0 20px rgba(232,213,163,0.4)'
+                }}
+              >
+                Avalokiteshwara Psychological Counselling
+              </h1>
+            </div>
           </motion.div>
         </div>
       </section>
