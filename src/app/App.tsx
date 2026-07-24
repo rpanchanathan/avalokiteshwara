@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { motion, useInView } from 'motion/react';
-import { Flower2, Waves, Heart, Sparkles, Send, User, Shield, Eye } from 'lucide-react';
+import { Flower2, Waves, Heart, Sparkles, Send, User, Shield, Eye, Instagram } from 'lucide-react';
 
 export default function App() {
   const scrollToContact = () => {
@@ -10,6 +10,33 @@ export default function App() {
 
   return (
     <div className="min-h-screen" style={{ fontFamily: 'Inter, sans-serif' }}>
+      {/* Social Follow Bar */}
+      <div className="fixed top-0 right-0 z-50 flex items-center gap-3 p-4">
+        <a
+          href="https://www.instagram.com/avalokiteshwara_counselling/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Follow on Instagram"
+          aria-label="Follow on Instagram"
+          className="w-10 h-10 flex items-center justify-center rounded-full text-white shadow-lg ring-1 ring-white/40 hover:scale-110 transition-transform duration-300"
+          style={{ background: 'linear-gradient(45deg, #F58529, #DD2A7B, #8134AF)' }}
+        >
+          <Instagram className="w-5 h-5" />
+        </a>
+        <a
+          href="https://discoveringpsychology.substack.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Read on Substack"
+          aria-label="Read on Substack"
+          className="w-10 h-10 flex items-center justify-center rounded-full bg-[#FF6719] text-white shadow-lg ring-1 ring-white/40 hover:scale-110 transition-transform duration-300"
+        >
+          <svg className="w-[18px] h-[18px]" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" />
+          </svg>
+        </a>
+      </div>
+
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
